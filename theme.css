@@ -8,6 +8,31 @@ h1{
 	font-family: 'Old Standard TT', serif;
 	color: #80FFFF;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    float: left;
+}
+
+li a {
+	font-weight: bold;
+	font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #0000E6;
+}
 table, th, td {
 	font-style: italic;
 	font-size: 35px;
@@ -15,7 +40,7 @@ table, th, td {
     border: 3px solid orange;
     border-collapse: collapse;
 }
-#heading{
+.heading{
 	margin-left: 300px;
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
@@ -23,7 +48,7 @@ table, th, td {
 	font-weight: bold;
 	color: #FFD4CC;
 }
-#content{
+.content{
 	color: #99BBFF;
 	font-size: 30px;
 }
